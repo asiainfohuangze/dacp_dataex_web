@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context docBase="/Users/king/Documents/apache/apache-tomcat-8.0.24/wtpwebapps/cmsd-dataex-tmp" path="/cmsd-dataex-tmp" reloadable="true" source="org.eclipse.jst.j2ee.server:cmsd-dataex-tmp"/>
