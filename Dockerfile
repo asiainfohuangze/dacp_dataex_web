@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y curl
 
 EXPOSE 8080
 
-ENV JAVA_HOME  /usr/local/dacp/jdk1.7.0_67
+ENV JAVA_HOME  /usr/local/dacp/apache-tomcat-8.0.24/jdk1.7.0_67
 RUN curl -fSL https://s3.cn-north-1.amazonaws.com.cn/complier/jdk.tar.gz -o jdk.tar.gz\
     && tar -xf jdk.tar.gz
 
