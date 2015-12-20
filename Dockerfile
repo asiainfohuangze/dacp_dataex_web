@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-ENV CATALINA_HOME /usr/local/dacp
+ENV CATALINA_HOME /usr/local/dacp/apache-tomcat-8.0.24/
 RUN mkdir -p "$CATALINA_HOME"
 WORKDIR $CATALINA_HOME
 
