@@ -4,6 +4,8 @@ ENV CATALINA_HOME /usr/local/dacp
 RUN mkdir -p "$CATALINA_HOME"
 WORKDIR $CATALINA_HOME
 
+RUN apt-get date && apt-get intall -y curl
+
 EXPOSE 8080
 
 ENV JAVA_HOME  /usr/local/dacp/jdk1.7.0_67
