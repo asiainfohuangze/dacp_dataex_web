@@ -4,7 +4,7 @@ ENV CATALINA_HOME /usr/local/dacp
 RUN mkdir -p "$CATALINA_HOME"
 WORKDIR $CATALINA_HOME
 
-RUN apt-get install -y vim wget curl
+RUN apt-get install -y curl
 
 EXPOSE 8080
 
