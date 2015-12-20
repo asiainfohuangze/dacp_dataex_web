@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:14.04
 
 ENV CATALINA_HOME /usr/local/dacp
 RUN mkdir -p "$CATALINA_HOME"
