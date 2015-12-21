@@ -36,7 +36,7 @@
 		
 		
 		
-		<Resource driverClassName="com.mysql.jdbc.Driver" maxActive="5" maxWait="5000" minIdle="0" name="jdbc/DataEx" password="42B2-AEF4-ACB22155D394" removeAbandoned="true" testOnBorrow="true" type="javax.sql.DataSource" url="jdbc:mysql://bdx-dacp-apigateway.cctlkf28famk.rds.cn-north-1.amazonaws.com.cn:3306/dataex" username="admin" validationQuery="select 1"/>
+		<Resource driverClassName="com.mysql.jdbc.Driver" maxActive="5" maxWait="5000" minIdle="0" name="jdbc/AiomniDB" password="42B2-AEF4-ACB22155D394" removeAbandoned="true" testOnBorrow="true" type="javax.sql.DataSource" url="jdbc:mysql://bdx-dacp-apigateway.cctlkf28famk.rds.cn-north-1.amazonaws.com.cn:3306/dataex" username="admin" validationQuery="select 1"/>
 
 
 </Context>
